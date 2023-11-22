@@ -11,15 +11,15 @@ print("=========================================")
 
 def cetak_nilai(nilai):
     if(nilai <=60):
-        print("gagal")
+        return("gagal")
     elif(nilai >=61 and nilai <=70):
-        print("baik")
+        return("baik")
     elif(nilai >=71 and nilai <=80):
-        print("sangat baik")
+        return("sangat baik")
     elif(nilai >= 81 and nilai <=100):
-        print("istemewa")
+        return("istemewa")
     else:
-        print("nilai tidak ada")
+        return("nilai tidak ada")
 
 cetak_nilai(90)
 cetak_nilai(65)
